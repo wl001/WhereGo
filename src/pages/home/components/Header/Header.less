@@ -1,0 +1,46 @@
+@import "../../../../assets/css/publicStyle.less";
+
+@rem:100rem;
+.header{
+  display: flex;
+  height:86/@rem;
+  line-height:86/@rem;
+  background: @bgColor;
+  color:#ffffff;
+  .header_left{
+    width:64/@rem;
+    height:100%;
+    float: left;
+    .back-icon{
+      text-align: center;
+      font-size: 40/@rem;
+    }
+  }
+  .header_input{
+    flex:1;
+    height: 64/@rem;
+    line-height: 64/@rem;
+    margin-top: 12/@rem;
+    margin-left: 20/@rem;
+    padding-left: 20/@rem;
+    background: #fff;
+    border-radius: 1/@rem;
+    color: #ccc;
+    .iconfont{
+      font-size: 30/@rem;
+      line-height: 64/@rem;
+    }
+  }
+  .header_right{
+    min-width: 104/@rem;
+    line-height: 64/@rem;
+    padding: 10/@rem;
+    float: right;
+    text-align: center;
+    color: #fff;
+    .arrow-icon{
+      margin-left: -4/@rem;
+      font-size: 24/@rem
+    }
+  }
+}
